@@ -15,7 +15,7 @@ class Portfolio extends React.Component {
         <Route path="/" render={props => (
           <React.Fragment>
             <header>
-              <div id="title">Danny Hodge</div>
+              <div id="title">Danny Hodge, The Man</div>
               <div id="subtitle">Portfolio and Blog</div>
               <nav><ul>
                 <li><Link to="/">Home</Link></li> 
