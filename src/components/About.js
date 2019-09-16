@@ -10,7 +10,7 @@ class About extends React.Component {
             <body>
                 <content>
                     <article>
-                        <h1>About Me</h1>
+                        <h1>About The Poop</h1>
                         <h2>Who Am I?</h2>
                         <div id="p">Hi, I'm Danny. I'm a 24 year old Graduate Software Engineer, with interests across all of computing, such as Web Development, Computer Vision, Machine Learning and IoT devices.</div>
                         <div id="p">I spend most of my free time on personal projects, cooking/baking, spending time with friends or gaming. </div>
