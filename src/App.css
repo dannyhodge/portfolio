@@ -200,19 +200,13 @@ content #contactform h1 {
 }
 
 
-
-
-
-
 @media screen and (max-width: 2560px) {
 content .post iframe {
 float: left;
 }
 content .post {
     width: 80%;
-
 	margin-left:  0%;
-
 	float:left;
 	position: relative;
 }
@@ -223,10 +217,7 @@ content .post iframe {
 width: 500px;
 height: 290px;
 float: left;
-
 }
-
-
 }
 
 
@@ -234,9 +225,7 @@ float: left;
 @media screen and (max-width: 1680px) {
 content .post {
     width: 80%;
-
 	margin-left:  0%;
-
 	float:left;
 	position: relative;
 }
@@ -247,14 +236,7 @@ height: 260px;
 float: left;
 
 }
-
-
 }
-
-
-
-
-
 
 @media screen and (max-width: 1200px) {
 content .post iframe {
@@ -399,3 +381,86 @@ footer p {
 	float: right;
 	margin-right: 10%;
 }
+
+@media screen and (orientation:portrait) {
+
+	header {
+		width: 100%;
+
+	}
+	header #fullTitle {
+		width: 100%;
+		float: left;
+	}
+	header nav {
+		width: 100%;
+		height: 30px;
+		float: left;
+		margin: 0px;
+		padding: 0px;
+	}
+	header ul {
+		width: 70%;
+		margin-left: 10%;
+		height: 10px;
+	}
+
+	header ul li {
+		float: none;
+		margin-right: 10%;
+		margin-left: 10%;
+		padding: 0px;
+	}
+	footer {
+		width: 100%;
+	}
+
+
+	.button {
+		visibility: hidden;
+		width: 0px;
+		height: 0px;
+	}
+	
+	content {
+		padding: 0px;
+		margin: 0px;
+		width: 100%;
+	}
+	content h1 {
+		margin: 0px;
+		padding: 0px;
+		visibility: hidden;
+		height: 0px;
+	}
+	content .post h2 {
+		width: 100%;
+
+	}
+	.portfolioArea {
+		padding: 0px;
+		margin: 0px;
+		width: 100%;
+	}
+	content .post {
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		float: left;
+	}
+	#video1 {
+		margin: 0px;
+		padding-top: 20px;
+		width: 100%;
+		height: 300px;
+		float: left;
+		}
+
+	content .post p {
+		float: left;
+		padding: 10px;
+		margin: 0px;
+		width: 100%;
+		
+	}
+  }
