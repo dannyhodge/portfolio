@@ -1,6 +1,4 @@
 import React from "react";
-import ImageProcessingItem from "./ImageProcessingItem";
-import SortingItem from "./SortingItem";
 import PortfolioItem from "./PortfolioItem";
 import "../App.css";
 import Footer from "./Footer";
@@ -12,14 +10,13 @@ class Home extends React.Component {
 
     this.state = {
       counter: 0,
-      items: [],
       portfolioItems: [],
     };
   }
 
   LoadNextImage = () => {
     var currCounter = this.state.counter;
-    var myItems = this.state.items;
+    var myItems = this.state.portfolioItems;
     if (currCounter + 1 > myItems.length - 1) {
       currCounter = 0;
     } else {
@@ -32,7 +29,7 @@ class Home extends React.Component {
 
   LoadPreviousImage = () => {
     var currCounter = this.state.counter;
-    var myItems = this.state.items;
+    var myItems = this.state.portfolioItems;
     if (currCounter - 1 < 0) {
       currCounter = myItems.length - 1;
     } else {
@@ -44,13 +41,9 @@ class Home extends React.Component {
   };
 
   componentWillMount = () => {
-    const myItems = [<ImageProcessingItem />, <SortingItem />];
     this.setState({
-      items: myItems,
       portfolioItems: Data,
     });
-
-    console.log("data: ", Data);
   };
 
   render() {
